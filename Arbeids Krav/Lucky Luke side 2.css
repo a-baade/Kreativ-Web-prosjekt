@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+.logo{
+    float:left;
+    position: relative;
+    left: 60px; 
+    padding:5px;
+}
+.title{
+    float:inherit;
+}
+.header{
+    background-color: lightgrey;
+    padding:0px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:2000px;
+}
+.content {
+    position: relative;
+    top:150px;
+    float: left;
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+    padding: px;
+  
+}
+.pic {
+    width:290px;
+    height: 400px;
+    margin:15px;
+}
+h1{
+    position: relative;
+    top:150px;
+}
+.overlay {
+  position: absolute;
+  top: 70px;
+  height: 430px;
+  width: 310px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ba0000;
+}
+
+.character:hover .overlay {
+  opacity: 0.9;
+    width:330px;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;

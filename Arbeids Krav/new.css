@@ -1,0 +1,16 @@
+body{
+    font-family:serif;
+    font-size: 15px;
+    line-height: 1.75;
+    margin:0;
+    padding:0;
+    
+}
+.timeline{
+    display: flex;
+    background-color: rgba(235, 5, 5, 0.9);
+}
+
+.timeline:hover {
+    width:23.3%;
+}
